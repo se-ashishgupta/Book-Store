@@ -5,7 +5,7 @@ import "./styles/app.scss";
 import store from "./redux/store";
 import { Provider } from "react-redux";
 
-export const server = "http://localhost:9000/api/v1";
+export const server = "https://bookstoreserver-r4u6.onrender.com/api/v1";
 
 export const Context = createContext({ isAuthenticated: false });
 ReactDOM.createRoot(document.getElementById("root")).render(
