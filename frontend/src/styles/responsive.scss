@@ -1,0 +1,68 @@
+@media screen and (max-width: 630px) {
+  nav {
+    height: 100px;
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+
+    > h2 {
+      font: 900 1.5rem $text1;
+      letter-spacing: 4px;
+    }
+    > article {
+      > a {
+        letter-spacing: 4px;
+      }
+    }
+  }
+
+  .login {
+    section {
+      width: 100%;
+      padding: 1rem;
+
+      form {
+        gap: 1rem;
+      }
+    }
+  }
+
+  .todosContainer {
+    margin: 0 2rem;
+    padding: 0.5rem;
+  }
+
+  .searchBar {
+    margin: 0 2rem;
+    padding: 0.5rem;
+    justify-content: center;
+    > input {
+      width: 30%;
+    }
+  }
+}
+@media screen and (max-width: 466px) {
+  nav {
+    > h2 {
+      font: 900 1.5rem $text1;
+      letter-spacing: 4px;
+    }
+    > article {
+      > a {
+        gap: 1rem;
+        letter-spacing: 2px;
+      }
+    }
+  }
+  .todosContainer {
+    margin: 0 1rem;
+    padding: 0.5rem;
+  }
+  .searchBar {
+    margin: 0 2rem;
+    padding: 0.5rem;
+    justify-content: center;
+    > input {
+      width: 60%;
+    }
+  }
+}

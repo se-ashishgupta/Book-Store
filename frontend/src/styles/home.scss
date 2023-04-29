@@ -1,0 +1,74 @@
+.searchBar {
+  margin: 0 6rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  > input {
+    width: 20%;
+    border: 1px solid rgba(123, 123, 123, 0.6);
+    padding: 0.6rem;
+    border-radius: 5px;
+    outline: none;
+  }
+}
+.todosContainer {
+  margin: 0 6rem;
+  padding: 1rem;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color1;
+  margin-bottom: 10px;
+  padding: 1rem;
+  border-radius: 5px;
+
+  > div {
+    h4 {
+      color: $color3;
+      font-size: 1.5rem;
+      > span {
+        font-weight: normal;
+        font-size: 1.2rem;
+      }
+    }
+    p {
+      color: $color3_1;
+      font-size: 1.2rem;
+      > span {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  > article {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    > input {
+      width: 25px;
+      height: 25px;
+    }
+    > button {
+      width: 100px;
+      padding: 0.7rem;
+      border: none;
+      background-color: red;
+      border-radius: 5px;
+      transition: all 0.3s;
+      cursor: pointer;
+      font: 400 1.2rem $text1;
+
+      &:hover {
+        background-color: $color3;
+        color: $color1;
+      }
+    }
+  }
+}
